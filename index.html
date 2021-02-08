@@ -3,22 +3,58 @@
 <head>
 	<title>OhMyFood!</title>
 	<link rel="stylesheet" type="text/css" href="style_mobile.css">
+	<script src="https://kit.fontawesome.com/ef327bb470.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
 <header class="header">
-	<img src="images/logo/ohmyfood.png" class="logo">
+	<div class="header__logo_container">
+		<img src="images/logo/ohmyfood.png" class="logo">
+	</div>
 </header>
-<section class="explorer">
-	<h2>Reservez le menu qui vous convient</h2>
-	<p>Découvrez des restaurants d'excepetions, séléctionnés par nos soins</p>
-	<button type="button">Explorer nos restaurants</button>
+
+<section class="location">
+	<div class="location__container">
+		<i class="fas fa-map-marker-alt"></i>
+		<p>Paris, Belleville</p>
+	</div>
 </section>
+
+<section class="explorer">
+	<div class="explorer__txt_container">
+		<h2>Reservez le menu qui vous convient</h2>
+		<p>Découvrez des restaurants d'excepetions, séléctionnés par nos soins</p>
+	</div>
+		<div class="explorer__btn_container">
+			<button type="button">Explorer nos restaurants</button>
+	</div>
+</section>
+
 <section class="fonctionnement">
+
 	<h2>Fonctionnement</h2>
-	<ul>
-		<li><div><i class="fas fa-mobile-alt"></i><p>Choisissez un restaurant</p></div></li>
-		<li><div><p>Composez votre menu</p></div></li>
-		<li><div><i class="fas fa-store"></i><p>Dégustez au restaurant</p></div></li>
+	<ul class=" fonct__grid">
+		<li>
+			<span class="number"><p>1</p></span>
+			<div class="fonct__inside_tile">
+				<i class="fas fa-mobile-alt"></i>
+				<p class="text">Choisissez un restaurant</p>
+			</div>
+		</li>
+		<li>
+			<span class="number"><p>2</p></span>
+			<div class="fonct__inside_tile">
+				<p class="text">Composez votre menu</p>
+			</div>
+		</li>
+		<li>
+			<span class="number"><p>3</p></span>
+			<div class="fonct__inside_tile">
+				<i class="fas fa-store"></i>
+				<p class="text">Dégustez au restaurant</p>
+			</div>
+		</li>
 	</ul>
 </section>
 
@@ -28,34 +64,65 @@
 	<div class="resto__grid_container">
 
 		<figure class="resto_tile">
+
 			<img src="images/restaurants/la_palette.jpg" class="resto_tile_image" alt="palette">
+			<div class="resto_tile-new">
+				<h2>Nouveau</h2>
+			</div>
 			<figcaption class="resto_tile_annex">
-				<h2>La Palette Du Goût</h2>	
-				<p>Menilmontant</p>
+				<div class="resto_tile_annex-text">
+					<h2>La Palette Du Goût</h2>	
+					<p>Menilmontant</p>
+				</div>
+				<div class="resto_tile_annex-icon">
+					<i class="far fa-heart"></i>
+				</div>
 			</figcaption>
 		</figure>
 
 		<figure class="resto_tile">
 			<img src="images/restaurants/note.jpg" class="resto_tile_image" alt="note_enchantée">
+			<div class="resto_tile-new">
+				<h2>Nouveau</h2>
+			</div>
 			<figcaption class="resto_tile_annex">
+				<div class="resto_tile_annex-text">
 				<h2>La Note Enchantée</h2>	
 				<p>Charonne</p>
+				</div>
+				<div class="resto_tile_annex-icon">
+					<i class="far fa-heart"></i>
+				</div>
+
 			</figcaption>
 		</figure>
 
 		<figure class="resto_tile">
 			<img src="images/restaurants/Ala_francaise.jpg" class="resto_tile_image" alt="Ala_francaise">
 			<figcaption class="resto_tile_annex">
-				<h2>A La Française</h2>	
+				<div class="resto_tile_annex-text">
+					<h2>A La Française</h2>	
 				<p>Cité Rouge</p>
+				</div>
+				<div class="resto_tile_annex-icon">
+					<i class="far fa-heart"></i>
+				</div>
+				
 			</figcaption>
 		</figure>
 
 		<figure class="resto_tile">
 			<img src="images/restaurants/delice.jpg" class="resto_tile_image" alt="Délices">
 			<figcaption class="resto_tile_annex">
-				<h2>Le Délice Des Sens</h2>	
+				<div class="resto_tile_annex-text">
+					<h2>Le Délice Des Sens</h2>	
 				<p>Folie-Méricourt</p>
+				</div>
+				<div class="resto_tile_annex-icon">
+					<i class="far fa-heart"></i>
+				</div>
+
+				
 			</figcaption>
 		</figure>
 
@@ -63,6 +130,14 @@
 	
 
 </section>
-<footer></footer>
+<footer class="footer">
+	<img src="images/logo/ohmyfood.png" class="footer__logo">
+	<ul>
+		<li class="footer__link_li"><i class="fas fa-utensils fa-fw"></i><a href="#" class="footer__link">Proposer un restaurant</a></li>
+		<li class="footer__link_li"><i class="fas fa-hands-helping fa-fw"></i><a href="#" class="footer__link">Devenir partenaire</a></li>
+		<li class="footer__link_li"><a href="#" class="footer__link">Mentions légales</a></li>
+		<li class="footer__link_li"><a href="#" class="footer__link">Contact</a></li>
+	</ul>
+</footer>
 </body>
 </html>
