@@ -1,0 +1,38 @@
+body{
+	margin: 0px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+	.box{
+		font-size: 300px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.box:before{
+		content: "";
+		position: absolute;
+		width: 600px;
+		height: 600px;
+		background: #9356DC;
+		left:50%;
+		transform:translateX(-50%);
+		border-radius: 40%;
+		animation: fill 7s ease-in-out infinite;
+		z-index: -1;
+
+	}
+	@keyframes fill{
+		from{
+			top:500px;
+			transform: translateX(-50%) rotate(0deg);
+		}
+		to{
+			top: -50px;
+			transform: translateX(-50%) rotate(360deg);
+		}
+	}
