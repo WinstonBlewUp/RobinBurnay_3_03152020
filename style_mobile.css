@@ -1,12 +1,15 @@
 @font-face {
- font-family: "Roboto", "Shrikhand-Regular";
+ font-family: "Roboto";
  src: url("Fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
       url("Fonts/Roboto/Roboto-Thin.ttf") format("truetype"),
-      url("Fonts/Shrikhand-Regular.otf") format("opentype");
 }
-
+@font-face{
+	font-family: "Shrikhand";
+	src: url("Fonts/shrikhand/Shrikhand-Regular.otf") format("opentype");
+		 
+}
 *{
-	font-family: "Roboto", "Shrikhand-Regular";
+	font-family: "Roboto";
 }
 body{margin: 0 0px;}
 
@@ -225,17 +228,20 @@ body{margin: 0 0px;}
 					}
 .footer{
 	background: #353535;
-	height: 300px;
+	height: auto;
 	width: 100%;
 	font-size: 30px;
 	
 
 }
 	.footer__logo{
+		font-family: "Shrikhand";
+		color: #fff;
 		width: 200px;
 		margin-left: 30px;
-		margin-top: 20px;
-		fill: #fff;
+		margin-top: 50px;
+		border: 1px solid red;
+		
 	}
 	.footer__link{
 		color: #fff;

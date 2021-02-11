@@ -1,5 +1,10 @@
+@font-face{
+	font-family: "Shrikhand";
+	src: url("Fonts/shrikhand/Shrikhand-Regular.otf") format("opentype");	 
+}
 body{
 	background-color: #f6f6f6;
+
 }
 .header__logo_container{
 	display: inline-flex;
@@ -30,16 +35,25 @@ body{
 .menu{
 
 }
+
 .menu__grid{
 	width: 100%;
 	
 	
+}
+.resto_title{
+	font-family: "Shrikhand";
+	font-size: 50px;
+	margin-top: -70px;
+	margin-left: 70px;
+	background-color: #f6f6f6;
 }	
 	.menu__title{
 		padding-bottom: 5px;
 		border-bottom: 5px solid #99e2d0;
 		width: 5%;
 		margin-left: 8%;
+		font-weight: normal;
 	}
 	.menu__list{
 		
@@ -59,28 +73,27 @@ body{
 			margin-bottom: 20px;
 			margin-left: -30px;
 			box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
-			transition-property: transform;
-			transform: scale(1);
-			transition-duration: 1000ms;
-
+			transform: scaleX(1);
 		}
+
 		.menu__tile a{
 			text-decoration: none;
 			color: #000;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
-			
-
 		}
-			.menu__tile a:hover{
-				/*transform: scale(0.5);*/
-				border: 5px solid red;
+
+			.menu__tile a:active{
+
+			background-color: #99E2D0;
+			transform: scaleX(0.5);	
+				
 			}
 			.tile-annex{
 				margin-left: 20px;
-				
 				width: 80%;
+				
 			}
 				.tile-annex p{
 					margin-top: -10px;
@@ -91,7 +104,12 @@ body{
 						padding-top: 30px;
 						font-weight: bold;
 						font-size: 20px;
-											}
+					}
+
+					.tile-annex-prix{
+						
+					}
+
 .order__btn_container{
 	display: flex;
 	justify-content: center;
