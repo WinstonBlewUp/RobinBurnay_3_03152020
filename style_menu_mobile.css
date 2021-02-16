@@ -1,0 +1,123 @@
+@font-face{
+	font-family: "Shrikhand";
+	src: url("Fonts/shrikhand/Shrikhand-Regular.otf") format("opentype");	 
+}
+body{
+	background-color: #f6f6f6;
+
+}
+.header__logo_container{
+	display: inline-flex;
+	justify-content: space-evenly;
+	
+}
+.logo{
+	
+	margin-left: -150px;
+
+
+}
+.back_to_index{
+	font-size: 40px;
+	
+	width: 20%;
+	margin-left: -300px;
+}
+	.back_to_index i{
+		margin-top: 30px;
+		color: #353535;
+	}
+
+.background_image{
+	width: 100%;
+	object-fit: cover;
+}
+.menu{
+
+}
+
+.menu__grid{
+	width: 100%;
+	
+	
+}
+.resto_title{
+	font-family: "Shrikhand";
+	font-size: 50px;
+	margin-top: -70px;
+	margin-left: 70px;
+	background-color: #f6f6f6;
+}	
+	.menu__title{
+		padding-bottom: 5px;
+		border-bottom: 5px solid #99e2d0;
+		width: 5%;
+		margin-left: 8%;
+		font-weight: normal;
+	}
+	.menu__list{
+		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+		.menu__tile{
+			background-color: #fff;
+			list-style-type: none;
+			height: 100px;
+			width: 90%;
+			height: 100px;
+			border-radius: 20px;
+			margin-bottom: 20px;
+			margin-left: -30px;
+			box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+			
+		}
+
+		.menu__tile a{
+			text-decoration: none;
+			color: #000;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			border: 2px solid pink;
+		}
+			.tile-annex{
+				margin-left: 20px;
+				width: 80%;
+				border: 1px solid red;
+			}
+				.tile-annex p{
+					margin-top: -10px;
+				}
+
+					.tile-annex-prix{
+						width: 10%;
+						padding-top: 30px;
+						font-weight: bold;
+						font-size: 20px;
+						border: 1px solid blue;
+					}
+
+					
+
+.order__btn_container{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+	
+	.order__btn_container button{
+		width:250px; 
+			height:70px;
+			border-radius: 30px;
+			background: rgb(255,121,218);
+			background: linear-gradient(196deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+			color: white;
+			font-size: 20px;
+			border: none;
+			box-shadow: 1px 7px 5px -3px rgba(0,0,0,0.23);
+	}	

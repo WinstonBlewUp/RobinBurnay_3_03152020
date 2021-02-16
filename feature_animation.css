@@ -4,7 +4,11 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+<<<<<<< Updated upstream
 	overflow: hidden;
+=======
+	
+>>>>>>> Stashed changes
 }
 
 	.box{
@@ -24,6 +28,10 @@ body{
 		border-radius: 40%;
 		animation: fill 7s ease-in-out infinite;
 		z-index: -1;
+<<<<<<< Updated upstream
+=======
+		overflow: hidden;
+>>>>>>> Stashed changes
 
 	}
 	@keyframes fill{
