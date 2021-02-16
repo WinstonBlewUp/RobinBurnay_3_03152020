@@ -97,7 +97,7 @@ body{margin: 0 0px;}
 
 	.fonctionnement{
 		font-size: 30px;
-		border: 1px solid black;
+		
 	}
 	.fonct__grid{
 		display: flex;
@@ -155,13 +155,15 @@ body{margin: 0 0px;}
 						padding-right: 30px;
 						margin: 0 0px;
 					}
+						.fusion-icon{
+							display: flex;
+						}
 
 					
 				
 				
 			
 	.resto__grid{
-		border: 1px solid red;
 		background: #f6f6f6;
 		width: 100%
 
@@ -175,7 +177,6 @@ body{margin: 0 0px;}
 
 		}
 			.resto__grid_title{
-				border: 1px solid black;
 				margin-bottom: 20px;
 			}	
 			.resto_tile{
@@ -213,7 +214,6 @@ body{margin: 0 0px;}
 					
 				}
 					.resto_tile_annex-text{
-						border: 1px solid blue;
 						margin-left: 5%;
 					}	
 						.resto_tile_annex p{
@@ -221,7 +221,6 @@ body{margin: 0 0px;}
 						}
 
 					.resto_tile_annex-icon{
-						border: 1px solid red;
 						font-size: 35px;
 						margin-right: 5%;
 						padding-top: 30px;
@@ -240,16 +239,12 @@ body{margin: 0 0px;}
 		width: 200px;
 		margin-left: 30px;
 		margin-top: 50px;
-		border: 1px solid red;
 		
 	}
 	.footer__link{
 		color: #fff;
 		text-decoration: none;
 	}
-		.footer__link_icon{
-			border: 1px solid blue;
-		}
 	.footer__link_li{
 		list-style-type: none;
 		margin-bottom: 20px;
@@ -257,7 +252,7 @@ body{margin: 0 0px;}
 		.footer__link_li i{
 			color: white;
 			margin-right: 20px;
-			border: 1px solid white;
+			
 			
 		}
 }

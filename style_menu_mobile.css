@@ -4,6 +4,7 @@
 }
 body{
 	background-color: #f6f6f6;
+	margin: 0px;
 
 }
 .header__logo_container{
@@ -47,6 +48,8 @@ body{
 	margin-top: -70px;
 	margin-left: 70px;
 	background-color: #f6f6f6;
+	width: 100%;
+	border: 5px solid red;
 }	
 	.menu__title{
 		padding-bottom: 5px;
