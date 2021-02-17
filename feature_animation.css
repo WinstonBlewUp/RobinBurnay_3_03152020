@@ -3,37 +3,43 @@ body{
 	height: 100vh;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-<<<<<<< Updated upstream
-	overflow: hidden;
-=======
-	
->>>>>>> Stashed changes
+	justify-content: center;	
 }
 
 	.box{
-		font-size: 300px;
+		
 		position: relative;
 		overflow: hidden;
+		 clip-path: path('M213.1,6.7c-32.4-14.4-73.7,0-88.1,30.6C110.6,4.9,67.5-9.5,36.9,6.7C2.8,22.9-13.4,62.4,13.5,110.9 C33.3,145.1,67.5,170.3,125,217c59.3-46.7,93.5-71.9,111.5-106.1C263.4,64.2,247.2,22.9,213.1,6.7z'); 
+		
 	}
 
 	.box:before{
 		content: "";
 		position: absolute;
-		width: 600px;
-		height: 600px;
+		width: 520px;
+		height: 520px;
 		background: #9356DC;
 		left:50%;
+
 		transform:translateX(-50%);
 		border-radius: 40%;
 		animation: fill 7s ease-in-out infinite;
 		z-index: -1;
-<<<<<<< Updated upstream
-=======
-		overflow: hidden;
->>>>>>> Stashed changes
-
+		text-overflow: hidden;
+		
 	}
+		.box i{
+			overflow: hidden;
+			position: relative;
+			font-size: 260px;
+			margin-top: -17px;
+			margin-left: -5px;
+
+			
+
+		}
+
 	@keyframes fill{
 		from{
 			top:500px;
