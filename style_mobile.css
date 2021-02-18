@@ -13,6 +13,8 @@
 }
 body{margin: 0 0px;}
 
+a{text-decoration: none;}
+
 .header__logo_container{
 	text-align: center;
 	width: 100%;
@@ -218,18 +220,31 @@ body{margin: 0 0px;}
 					justify-content: space-between;
 					
 				}
-					.resto_tile_annex-text{
+					.resto_tile_annex-text a{
 						margin-left: 5%;
-					}	
-						.resto_tile_annex p{
+						height: 10%
+						flex-wrap: nowrap;
+
+					}
+					.resto_tile_annex-text{
+						margin-left: 10%;
+						
+						width: 100%;
+						color: #000;
+					}
+			
+						.resto_tile_annex-text p{
 							margin-top: -20px;
 						}
-
-					.resto_tile_annex-icon{
-						font-size: 35px;
-						margin-right: 5%;
-						padding-top: 30px;
-					}
+						.ac-footer-container{
+							position: relative;
+							right: 60px;
+							margin-top: 30px;
+						}
+							.ac-footer-container i{
+								
+							}
+					
 .footer{
 	background: #353535;
 	height: auto;
