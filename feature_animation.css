@@ -5,6 +5,11 @@ body{
 	align-items: center;
 	justify-content: center;	
 }
+	.heart_anim{
+		text-decoration: none;
+		color: #000;
+		border:1px solid black;
+	}
 
 	.box{
 		
@@ -17,8 +22,8 @@ body{
 	.box:before{
 		content: "";
 		position: absolute;
-		width: 520px;
-		height: 520px;
+		width: 200%;
+		height: 200%;
 		background: #9356DC;
 		left:50%;
 
@@ -35,9 +40,6 @@ body{
 			font-size: 260px;
 			margin-top: -17px;
 			margin-left: -5px;
-
-			
-
 		}
 
 	@keyframes fill{
@@ -50,3 +52,5 @@ body{
 			transform: translateX(-50%) rotate(360deg);
 		}
 	}
+
+	
