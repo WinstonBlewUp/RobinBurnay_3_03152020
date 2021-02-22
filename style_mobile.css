@@ -1,7 +1,7 @@
 @font-face {
  font-family: "Roboto";
  src: url("Fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
-      url("Fonts/Roboto/Roboto-Thin.ttf") format("truetype"),
+      url("Fonts/Roboto/Roboto-Light.ttf") format("truetype"),
 }
 @font-face{
 	font-family: "Shrikhand";
@@ -44,7 +44,6 @@ a{text-decoration: none;}
 		box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.09) inset;
 	}
 		.location i{
-			
 			padding-top: 30px;
 			padding-right: 50px;
 			margin-left: -50px;		
@@ -73,6 +72,9 @@ a{text-decoration: none;}
 			margin-left: 25%;
 			
 		}
+			.explorer__txt_container p{
+				font-weight: lighter;
+			}
 		.explorer__btn_container{
 			justify-content: center;
 		}
@@ -172,8 +174,7 @@ a{text-decoration: none;}
 			
 	.resto__grid{
 		background: #f6f6f6;
-		width: 100%
-
+		width: 100%;
 	}
 		.resto__grid_container{
 			width: 100%;
@@ -181,6 +182,8 @@ a{text-decoration: none;}
 			flex-wrap: wrap;
 			justify-content: center;
 			margin: 0 0px;
+			border:1px solid black;
+			
 
 		}
 			.resto__grid_title{
@@ -235,6 +238,7 @@ a{text-decoration: none;}
 			
 						.resto_tile_annex-text p{
 							margin-top: -20px;
+							font-weight: lighter;
 						}
 						.ac-footer-container{
 							position: relative;
@@ -256,9 +260,9 @@ a{text-decoration: none;}
 	.footer__logo{
 		font-family: "Shrikhand";
 		color: #fff;
-		width: 200px;
+		font-size: 40px;
 		margin-left: 30px;
-		margin-top: 50px;
+		
 		
 	}
 	.footer__link{
