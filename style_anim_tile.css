@@ -2,14 +2,17 @@
 	overflow: hidden;
 }
 
-
-
-.menu__tile a:active .tile-check{
+.menu__tile a:active .tile-check {
 	transform: translateX(0%);
-	
-	
-	
+		
 }
+	.menu__tile a:active .tile-annex-prix{
+		transform: translateX(0%);
+	}
+	.tile-annex-prix{
+		transform: translateX(100%);
+		transition: transform 400ms;
+	}
 .menu__tile a:active .tile-check i{
 	transform: rotate(360deg);
 }
@@ -17,7 +20,7 @@
 .tile-check{
 	background: #99E2D0;
 	width: 20%;
-	
+	height: 100px;
 	transform: translateX(100%);
 	transition: transform 400ms;
 	
@@ -28,12 +31,10 @@
 		border-radius: 50%;
 		color: #99E2D0;
 		
-		margin-top: 25px;
+		margin-top: 30px;
 		margin-left: 20px;
 		padding: 10px;
 		transform: rotate(0deg);
 		transition: transform 1s ease-in-out;
 
 	}
-
-
