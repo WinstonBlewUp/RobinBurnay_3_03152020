@@ -82,12 +82,12 @@ body{
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
-			border: 2px solid pink;
+			
 		}
 			.tile-annex{
 				margin-left: 20px;
 				width: 80%;
-				border: 1px solid red;
+				
 			}
 				.tile-annex p{
 					margin-top: -10px;
@@ -98,7 +98,7 @@ body{
 						padding-top: 30px;
 						font-weight: bold;
 						font-size: 20px;
-						border: 1px solid blue;
+						padding-left: 20px;
 					}
 
 					
