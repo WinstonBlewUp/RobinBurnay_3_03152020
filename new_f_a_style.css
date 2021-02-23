@@ -6,12 +6,9 @@
 	height:30px;
 	margin:auto
 }
-.heart-icon i{
-	border: 1px solid red;
-	font-size:30px;
-}
-.purp-heart i{
-	color: #9356dc
+.heart-icon img{
+	
+	width: 30px;
 }
 @keyframes pulse{
 	0%{
@@ -38,6 +35,12 @@
 	display:block;
 	position:relative
 	}
+	.heart-liked{
+		display: none;
+		background-color: #FFF;
+		position: relative;
+		top: -34px;
+	}
 	.heart-icon:before{
 		content:'';
 		display:block;
@@ -55,12 +58,11 @@
 		.ac-footer-container:active .heart-icon{
 			animation:pulseHeart 1s ease infinite;
 			}
-			.ac-footer-container:active .heart-icon i{
-				background-image: url(images/heart-solid.svg);
-
-
-
+			.ac-footer-container:active .heart-liked{
+				display: block;
 			}
+
+		
 			.ac-footer-container:active .heart-icon:before{
 				animation:pulse 1s ease infinite !important;
 
