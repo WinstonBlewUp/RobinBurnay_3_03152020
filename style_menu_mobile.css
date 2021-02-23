@@ -123,10 +123,14 @@ body{
 						font-weight: bold;
 						font-size: 20px;
 					}
-
-					.tile-annex-prix{
-						
-					}
+					
+.menu__tile a:active .tile-annex-prix{
+		transform: translateX(0%);
+	}
+	.tile-annex-prix{
+		transform: translateX(100%);
+		transition: transform 400ms;
+	}
 .menu__tile a:active .tile-check{
 	transform: translateX(0%);	
 }
@@ -137,7 +141,7 @@ body{
 .tile-check{
 	background: #99E2D0;
 	width: 20%;
-	
+	height: 100px;
 	transform: translateX(100%);
 	transition: transform 400ms;
 	
