@@ -35,7 +35,7 @@ body{
 	z-index: 2;
 }
 .menu__container{
-	border: 1px solid red;
+	
 	margin-top: -30px;
 }
 
@@ -54,7 +54,7 @@ body{
 	margin-top: -60px;
 	padding-top: -50px;
 	z-index: 2;
-	border: 1px solid red;
+	
 	
 	
 }
@@ -71,7 +71,7 @@ body{
 	padding-bottom: 30px;
 	letter-spacing: .2rem;
 	width: 100%;
-	border: 1px solid red;
+	
 	
 }	
 
