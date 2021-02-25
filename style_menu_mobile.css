@@ -50,19 +50,21 @@ body{
 	
 }
 .ac-footer{
-	
-	z-index: 6;
+	margin-left: 350px;
+	margin-top: -60px;
+	padding-top: -50px;
+	z-index: 2;
 	border: 1px solid red;
 	
 	
 }
 .resto_title{
 	font-family: "Shrikhand";
-	font-size: 50px;
+	font-size: 30px;
 	background-color: #f6f6f6;
 	position: relative;
 	z-index: 4;
-	margin-top: -100px;
+	margin-top: -90px;
 	padding-top: 50px;
 	border-radius: 70px 70px 0px 0px;
 	padding-left: 80px;
