@@ -11,7 +11,9 @@
 *{
 	font-family: "Roboto";
 }
-body{margin: 0 0px;}
+body{margin: 0 0px;
+	background-color: #f6f6f6;
+}
 
 a{text-decoration: none;}
 
@@ -101,14 +103,27 @@ a{text-decoration: none;}
 
 	.fonctionnement{
 		font-size: 30px;
+		background-color: #fff;
 		
+		display: flex;
+		flex-direction: column;
+
 	}
+		.fonctionnement h2{
+			margin-left: 169px;
+			
+			
+			
+		}
 	.fonct__grid{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
 		margin-left: -30px;
+		
+		
+
 	}
 		.fonctionnement li{
 			list-style-type: none;
@@ -119,7 +134,7 @@ a{text-decoration: none;}
 			padding: 10px 10px;
 			width: 60%;
 			height: 80px;
-			margin-bottom: 20px;
+			margin-bottom: 40px;
 			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
 
 		}
@@ -182,12 +197,15 @@ a{text-decoration: none;}
 			flex-wrap: wrap;
 			justify-content: center;
 			margin: 0 0px;
-			border:1px solid black;
+			
 			
 
 		}
 			.resto__grid_title{
+				font-size: 40px;
+				margin-top: 40px;
 				margin-bottom: 20px;
+				margin-left: 169px;
 			}	
 			.resto_tile{
 				
