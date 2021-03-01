@@ -66,7 +66,7 @@ body{
 	z-index: 4;
 	margin-top: -90px;
 	padding-top: 50px;
-	border-radius: 70px 70px 0px 0px;
+	border-radius: 60px 60px 0px 0px;
 	padding-left: 80px;
 	padding-bottom: 30px;
 	letter-spacing: .2rem;
@@ -79,7 +79,7 @@ body{
 		padding-bottom: 5px;
 		border-bottom: 5px solid #99e2d0;
 		width: 5%;
-		margin-left: 8%;
+		margin-left: 5%;
 		font-weight: normal;
 	}
 	.menu__list{

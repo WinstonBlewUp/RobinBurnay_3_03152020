@@ -25,6 +25,9 @@ li {
 	
 	animation-delay: 200ms;
 }
+.menu__tile:nth-child(4){
+  animation-delay: 250ms;
+}
 
 @keyframes animateIn {
   0% {
