@@ -123,7 +123,7 @@
   .loader-section{
     animation: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     animation-delay: 3s;
-     animation-fill-mode: both;
+    animation-fill-mode: both;
   }
 
 
