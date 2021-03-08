@@ -60,17 +60,17 @@ body{
 }
 .resto_title{
 	font-family: "Shrikhand";
-	font-size: 30px;
-	background-color: #f6f6f6;
-	position: relative;
-	z-index: 4;
-	margin-top: -90px;
-	padding-top: 50px;
-	border-radius: 60px 60px 0px 0px;
-	padding-left: 80px;
-	padding-bottom: 30px;
-	letter-spacing: .2rem;
-	width: 100%;
+font-size: 40px;
+background-color: #f6f6f6;
+position: relative;
+z-index: 4;
+margin-top: -90px;
+padding-top: 50px;
+border-radius: 60px 60px 0px 0px;
+padding-left: 60px;
+padding-bottom: 30px;
+letter-spacing: .2rem;
+width: 100%;
 	
 	
 }	
