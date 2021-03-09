@@ -14,18 +14,18 @@ body{
 }
 .logo{
 	
-	margin-left: -150px;
+	
 
 
 }
 .back_to_index{
-	font-size: 40px;
+	font-size: 20px;
 	
 	width: 20%;
-	margin-left: -300px;
+	
 }
 	.back_to_index i{
-		margin-top: 30px;
+		
 		color: #353535;
 	}
 
@@ -36,11 +36,11 @@ body{
 }
 .menu__container{
 	
-	margin-top: -30px;
+	
 }
 
 .menu__grid{
-	width: 100%;
+	
 	background-color: #f6f6f6;
 }
 .resto_name{
@@ -50,9 +50,7 @@ body{
 	
 }
 .ac-footer{
-	margin-left: 350px;
-	margin-top: -60px;
-	padding-top: -50px;
+	
 	z-index: 2;
 	
 	
@@ -60,7 +58,7 @@ body{
 }
 .resto_title{
 	font-family: "Shrikhand";
-font-size: 40px;
+
 background-color: #f6f6f6;
 position: relative;
 z-index: 4;
@@ -70,7 +68,7 @@ border-radius: 60px 60px 0px 0px;
 padding-left: 60px;
 padding-bottom: 30px;
 letter-spacing: .2rem;
-width: 100%;
+
 	
 	
 }	
@@ -95,7 +93,7 @@ width: 100%;
 			list-style-type: none;
 			height: 100px;
 			width: 90%;
-			height: 100px;
+			
 			border-radius: 20px;
 			margin-bottom: 20px;
 			margin-left: -30px;
@@ -111,13 +109,33 @@ width: 100%;
 			justify-content: space-between;
 		}
 			.tile-annex{
+				display: flex;
+				flex-direction: column;
 				margin-left: 20px;
 				width: 80%;
+				border: 1px solid red;
+				margin-top: 18px;
+
+				
+				
+				
+				
+			}
+			.tile-annex h2{
+				font-size: 15px;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+
 				
 			}
 				.tile-annex p{
-					margin-top: -10px;
+					font-size: 14px;
+					margin-top: -7px;
 					font-weight: lighter;
+					white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
 				}
 
 					.tile-annex-prix{
@@ -125,14 +143,18 @@ width: 100%;
 						padding-top: 30px;
 						font-weight: bold;
 						font-size: 20px;
+						border: 1px solid blue;
+						margin-left: -76px;
+						padding-left: 8px;
 					}
 					
 .menu__tile a:active .tile-annex-prix{
-		transform: translateX(0%);
+		transform: translateX(-55%);
 	}
 	.tile-annex-prix{
-		transform: translateX(100%);
+		transform: translateX(150%);
 		transition: transform 400ms;
+
 	}
 .menu__tile a:active .tile-check{
 	transform: translateX(0%);	
@@ -141,12 +163,15 @@ width: 100%;
 	transform: rotate(360deg);
 }
 
+
 .tile-check{
 	background: #99E2D0;
 	width: 20%;
 	height: 100px;
 	transform: translateX(100%);
 	transition: transform 400ms;
+
+	
 	
 }
 	.tile-check i{

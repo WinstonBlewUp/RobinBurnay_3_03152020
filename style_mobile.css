@@ -72,9 +72,9 @@ a{text-decoration: none;}
 		align-content: flex-start;
 	}
 		.explorer__txt_container{
-			width: 50%;
+
+			justify-content: center;
 			
-			margin-left: 25%;
 			
 		}
 			.explorer__txt_container p{
@@ -84,12 +84,12 @@ a{text-decoration: none;}
 			justify-content: center;
 		}
 		.explorer h2{
-			font-size: 40px;
+			
 			flex-wrap: wrap;
 		}
 		.explorer p{
 			
-			font-size: 25px;
+			
 		}
 		.explorer button{
 			width:300px; 
@@ -105,7 +105,7 @@ a{text-decoration: none;}
 		}
 
 	.fonctionnement{
-		font-size: 30px;
+		
 		background-color: #fff;
 		
 		display: flex;
@@ -113,7 +113,7 @@ a{text-decoration: none;}
 
 	}
 		.fonctionnement h2{
-			margin-left: 169px;
+			
 			
 			
 			
@@ -134,10 +134,10 @@ a{text-decoration: none;}
 			
 			border-radius: 20px;
 			background-color: #f6f6f6;
-			padding: 10px 10px;
-			width: 60%;
+			
+			width: 80%;
 			height: 80px;
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
 
 		}
@@ -145,18 +145,20 @@ a{text-decoration: none;}
 				background-color: #f5edff;
 			}
 			.fonctionnement span{
-				
-				background: #9356DC;
-				border-radius: 50%;
-				width: 14px;
-	            height: 14px;
-	            padding: 14px 14px;
-	            margin-top: 18px;
-	            margin-left: -30px;
-
+				    background: #9356DC;
+    				border-radius: 50%;
+   					width: 8px;
+    				height: 8px;
+   					padding: 12px 12px;
+    				margin-top: 20px;
+    				margin-left: -13px;
 			}
+
+			
 				.number p{
-					margin-top: -10px;
+					margin-top: -4px;
+					margin-left: -1px;
+					font-size: 15px;
 					color: #fff;
 				}
 
@@ -164,23 +166,25 @@ a{text-decoration: none;}
 					display: flex;
 					flex-direction: row;
 					width: 100%;
-					
-					justify-content: space-evenly;
+					border: 1px solid;
+					justify-content: space-between;
 					padding-top: 25px;
+					margin-left: 10px;
 					
 
 				}
 					.fonctionnement i{
 					
 					color: #7e7e7e;
+					margin-top: 3px;
 
 				}
 					.fonctionnement li:active i{
 						color: #9356dc;
 					}
 					.fonct__inside_tile p{
-						padding-right: 30px;
-						margin: 0 0px;
+						padding-right: 15px;
+						margin-top: 2px;
 					}
 						.fusion-icon{
 							display: flex;
@@ -205,15 +209,14 @@ a{text-decoration: none;}
 
 		}
 			.resto__grid_title{
-				font-size: 40px;
-				margin-top: 40px;
+				
 				margin-bottom: 20px;
-				margin-left: 169px;
+				
 			}	
 			.resto_tile{
 				
-				height: 350px;
-				width: 60%;
+				height: 200px;
+				width: 80%;
 				margin: 0 0;
 				border-radius: 5%;
 				background: #fff;
@@ -230,13 +233,14 @@ a{text-decoration: none;}
 					.resto_tile-new{
 						display: flex;
 						position: absolute;
-						top: 30px;
-						right: 30px;
+						top: 15px;
+						right: 15px;
 						color: #008766;
 						background: #99E2D0;
-						width: 120px;
+						width: 80px; 
 						justify-content: center;
 						border-radius: 5%;
+						font-size: 10px;
 					}
 				.resto_tile_annex{
 					font-size: 20px;
@@ -252,19 +256,20 @@ a{text-decoration: none;}
 					}
 					.resto_tile_annex-text{
 						margin-left: 10%;
-						
+						font-size: 10px;
 						width: 100%;
 						color: #000;
+						
 					}
 			
 						.resto_tile_annex-text p{
-							margin-top: -20px;
+							margin-top: -10px;
 							font-weight: lighter;
 						}
 						.ac-footer-container{
 							position: relative;
 							right: 60px;
-							margin-top: 30px;
+							margin-top: 15px;
 						}
 							.ac-footer-container i{
 								
@@ -274,14 +279,14 @@ a{text-decoration: none;}
 	background: #353535;
 	height: auto;
 	width: 100%;
-	font-size: 30px;
+	
 	
 
 }
 	.footer__logo{
 		font-family: "Shrikhand";
 		color: #fff;
-		font-size: 40px;
+		font-size: 20px;
 		margin-left: 30px;
 		
 		
@@ -301,7 +306,7 @@ a{text-decoration: none;}
 			
 		}
 
-@media(min-width: 601px) and (max-width: 800px){
+@media (min-width: 601px) and (max-width: 800px){
 	.resto__grid{
 		border: 1px solid red;
 	}
