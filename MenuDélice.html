@@ -20,7 +20,7 @@
 			
 		</header>
 <section class="menu">
-	<img src="images/restaurants/delice.jpg" class="background_image" alt="alafr">
+	<img src="images/restaurants/delice.jpg" class="background_image" alt="delice">
 	<div class="menu__grid">
 		<div class="resto_name">
 			<h1 class="resto_title">Le délice des sens
@@ -36,8 +36,8 @@
 		</div>
 
 		<div class="menu__container">
-
-			<h2 class="menu__title">Entrées</h2>
+			<div class="menu__bloc">
+				<h2 class="menu__title">Entrées</h2>
 
 				<ul class="menu__list">
 					<li class="menu__tile">
@@ -50,7 +50,7 @@
 								<p>25€</p>
 							</div>
 							<div class="tile-check">
-								<i class="fas fa-check"></i>
+								<i class="fas fa-check" aria-hidden="false"></i>
 							</div>
 						</a>
 					</li>
@@ -83,8 +83,8 @@
 						</a>
 					</li>
 				</ul>
-			
-
+			</div>
+			<div class="menu__bloc">
 			<h2 class="menu__title">Plats</h2>
 
 				<ul class="menu__list">
@@ -131,7 +131,8 @@
 						</a>
 					</li>
 				</ul>
-
+			</div>
+			<div class="menu__bloc">
 			<h2 class="menu__title">Desserts</h2>
 
 				<ul class="menu__list">
@@ -178,6 +179,7 @@
 						</a>
 					</li>
 				</ul>
+			</div>
 		</div>
 	</div>
 </section>
@@ -187,13 +189,15 @@
 	</div>
 
 		<footer class="footer">
-			<h2 class="footer__logo">Ohmyfood</h2>
-			<ul>
-				<li class="footer__link_li"><i class="fas fa-utensils fa-fw"></i><a href="#" class="footer__link">Proposer un restaurant</a></li>
-				<li class="footer__link_li"><i class="fas fa-hands-helping fa-fw"></i><a href="#" class="footer__link">Devenir partenaire</a></li>
-				<li class="footer__link_li"><a href="#" class="footer__link">Mentions légales</a></li>
-				<li class="footer__link_li"><a href="#" class="footer__link">Contact</a></li>
-			</ul>
-		</footer>
+	<div class="footer__container">
+		<h2 class="footer__logo">Ohmyfood</h2> 
+		<ul>
+			<li class="footer__link_li"><i class="fas fa-utensils fa-fw"></i><a href="#" class="footer__link">Proposer un restaurant</a></li>
+			<li class="footer__link_li"><i class="fas fa-hands-helping fa-fw"></i><a href="#" class="footer__link">Devenir partenaire</a></li>
+			<li class="footer__link_li"><a href="#" class="footer__link">Mentions légales</a></li>
+			<li class="footer__link_li"><a href="#" class="footer__link">Contact</a></li>
+		</ul>
+	</div>
+</footer>
 	</body>
 </html>

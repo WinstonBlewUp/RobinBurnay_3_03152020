@@ -161,7 +161,7 @@ a{text-decoration: none;}
 					flex-direction: row;
 					width: 100%;
 					border: 1px solid;
-					justify-content: space-between;
+					justify-content: space-around;
 					padding-top: 25px;
 					
 					

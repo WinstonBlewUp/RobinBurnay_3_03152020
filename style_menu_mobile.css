@@ -9,24 +9,23 @@ body{
 }
 .header__logo_container{
 	display: inline-flex;
-	justify-content: space-evenly;
 	
-}
-.logo{
-	
-	
-
 
 }
 .back_to_index{
 	font-size: 20px;
-	
+	margin-top: 6%;
 	width: 20%;
 	
 }
 	.back_to_index i{
 		
 		color: #353535;
+	}
+
+	.logo{
+		
+		margin-left: 32px;
 	}
 
 .background_image{
@@ -40,37 +39,37 @@ body{
 }
 
 .menu__grid{
-	
+
 	background-color: #f6f6f6;
 }
 .resto_name{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 30px;
 	
 }
-.ac-footer{
-	
-	z-index: 2;
-	
-	
-	
-}
+
 .resto_title{
 	font-family: "Shrikhand";
-
+	font-size: 25px;
 background-color: #f6f6f6;
 position: relative;
 z-index: 4;
 margin-top: -90px;
-padding-top: 50px;
-border-radius: 60px 60px 0px 0px;
-padding-left: 60px;
-padding-bottom: 30px;
-letter-spacing: .2rem;
+padding-top: 28px;
+padding-left: 25px;
 
-	
-	
+border-radius: 40px 40px 0px 0px;
+
+
+letter-spacing: normal;
+width: 100%;	
+}
+
+.ac-footer{
+margin-left: 98%;
+margin-top: -45px;
 }	
 
 	.menu__title{
@@ -113,7 +112,7 @@ letter-spacing: .2rem;
 				flex-direction: column;
 				margin-left: 20px;
 				width: 80%;
-				border: 1px solid red;
+				
 				margin-top: 18px;
 
 				
@@ -140,26 +139,35 @@ letter-spacing: .2rem;
 
 					.tile-annex-prix{
 						width: 10%;
-						padding-top: 30px;
+						padding-top: 25px;
 						font-weight: bold;
 						font-size: 20px;
-						border: 1px solid blue;
+					
 						margin-left: -76px;
 						padding-left: 8px;
 					}
 					
-.menu__tile a:active .tile-annex-prix{
-		transform: translateX(-55%);
+.menu__tile a:hover .tile-annex-prix{
+		transform: translateX(65%);
 	}
 	.tile-annex-prix{
 		transform: translateX(150%);
 		transition: transform 400ms;
 
 	}
-.menu__tile a:active .tile-check{
+	.tile-annex{
+		
+		transform-origin: left;
+		transition: width 400ms;
+	}
+	.menu__tile a:hover .tile-annex{
+		width: 50%;
+
+	}
+.menu__tile a:hover .tile-check{
 	transform: translateX(0%);	
 }
-.menu__tile a:active .tile-check i{
+.menu__tile a:hover.tile-check i{
 	transform: rotate(360deg);
 }
 
@@ -175,13 +183,13 @@ letter-spacing: .2rem;
 	
 }
 	.tile-check i{
-		font-size: 20px;
+		font-size: 15px;
 		background-color: #fff;
 		border-radius: 50%;
 		color: #99E2D0;
 		
-		margin-top: 25px;
-		margin-left: 20px;
+		margin-top: 32px;
+		margin-left: 15px;
 		padding: 10px;
 		transform: rotate(0deg);
 		transition: transform 1s ease-in-out;
@@ -206,3 +214,103 @@ letter-spacing: .2rem;
 			border: none;
 			box-shadow: 1px 7px 5px -3px rgba(0,0,0,0.23);
 	}	
+
+	@media   (max-width: 340px){
+		.resto_title{
+			padding-left: 5px;
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: 600px) and (max-width: 800px){
+		.back_to_index{
+			margin-top: 32px;
+		}
+		.logo{
+			margin-left: 7%;
+		}
+		.footer__logo{
+
+		margin-left: -22px !important; 
+	}
+	.footer__container{
+		display: flex;
+		flex-direction: column;
+		
+		text-align: center;
+
+	}
+	.footer__container ul{
+		margin-left: -50px;
+	}
+	}
+@media (min-width: 801px) and (max-width: 1501px){
+	.header__logo_container{
+		justify-content: flex-start;
+	}
+	.logo{
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.back_to_index{
+	margin-top: 25px;	
+	}
+	.background_image{
+		height: 500px;
+	}
+	.resto_title{
+		width: 95%;
+		margin-top: -84px;
+		padding-left: 40%;
+	}
+	.ac-footer{
+		margin-top: -47px;
+		margin-left: 0%;
+	}
+	.menu__container{
+		display: flex;
+		flex-direction: row;
+	}
+	.menu__bloc{
+		flex-direction: column;
+	}
+	.menu__title{
+		margin-left: 17%;
+	}
+	.menu__tile{
+		width: 300px;
+	}
+	#menu__tileNote{
+		width: 200px;
+
+	}
+	#menu__tileNote .tile-annex{
+		width: 70%;
+		overflow-wrap: break-word;	 
+	}
+	#menu__tileNote a:hover .tile-annex{
+		width: 40%;
+	}
+	
+	#menu__listNote{
+		justify-content: space-between;
+		margin-left: 40px;
+	}
+
+	
+
+	.footer__logo{
+		margin-left: -13px;
+	}
+	.footer__container{
+		display: flex;
+		flex-direction: column;
+		
+		text-align: center;
+
+	}
+	.footer__container ul{
+		margin-left: -50px;
+	}
+}
+}
