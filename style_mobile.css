@@ -36,7 +36,7 @@ a{text-decoration: none;}
 	}
 .location{
 	
-	font-size: 20px;
+	font-size: 15px;
 	background:#eaeaea;
 	margin: 0 0px;
 	
@@ -50,8 +50,8 @@ a{text-decoration: none;}
 	}
 		.location i{
 			padding-top: 13px;
-			padding-right: 30px;
-			margin-left: -20px;	
+			padding-right: 8px;
+			margin-left: -10px;
 		}
 		.location p{
 			margin-top: 12px;
@@ -107,10 +107,7 @@ a{text-decoration: none;}
 
 	}
 		.fonctionnement h2{
-			
-			
-			
-			
+			margin-left: 30px;
 		}
 	.fonct__grid{
 		display: flex;
@@ -205,6 +202,7 @@ a{text-decoration: none;}
 			.resto__grid_title{
 				
 				margin-bottom: 20px;
+				margin-left: 30px;
 				
 			}	
 			.resto_tile{
@@ -291,7 +289,7 @@ a{text-decoration: none;}
 	}
 	.footer__link_li{
 		list-style-type: none;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 		.footer__link_li i{
 			color: white;
