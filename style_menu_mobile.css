@@ -229,6 +229,7 @@ margin-top: -45px;
 		.logo{
 			margin-left: 7%;
 		}
+
 		.footer__logo{
 
 		margin-left: -22px !important; 
@@ -290,6 +291,9 @@ margin-top: -45px;
 	}
 	#menu__tileNote a:hover .tile-annex{
 		width: 40%;
+	}
+	#menu__tileNote .tile-check i{
+		margin-left: 4px;
 	}
 	
 	#menu__listNote{

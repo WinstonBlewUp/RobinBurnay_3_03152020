@@ -30,7 +30,7 @@
 }
 
 .heart-icon{
-	border: 1px solid;
+	
 	width: 30px;
 	
 }
@@ -59,7 +59,7 @@
 		right:0;
 		z-index:-1;
 		border-radius:100%;
-		border: 1px solid red;
+		
 		
 		}
 		.ac-footer-container:active .heart-icon{

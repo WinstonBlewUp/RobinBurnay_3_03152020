@@ -50,7 +50,7 @@
   overflow: hidden;
   position: absolute;
   top: 25%;
-  right: 40%;
+  right: 20%;
   z-index: 1001;
 
 }
@@ -74,22 +74,6 @@
         z-index: 1000;
         
     }
-
-    /*.loaded .loading-spinner-ellipsis {
-        opacity: 0;
-        -webkit-transition: all 0.3s ease-out;  
-                transition: all 0.3s ease-out;
-    }
-    .loaded #loader-wrapper {
-        visibility: hidden;
-
-        -webkit-transform: translateY(-100%); 
-            -ms-transform: translateY(-100%);  
-                transform: translateY(-100%); 
-
-        -webkit-transition: all 0.3s 1s ease-out;  
-                transition: all 0.3s 1s ease-out;
-    }*/
     
   @keyframes fade-away{
     0%{
@@ -124,6 +108,12 @@
     animation: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     animation-delay: 3s;
     animation-fill-mode: both;
+  }
+
+  @media (min-width: 600px){
+    .loading-spinner-ellipsis{
+      right: 40%;
+    }
   }
 
 
