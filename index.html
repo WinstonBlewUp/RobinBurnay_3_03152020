@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="animations/spinner-loader2.css">
 	<script src="https://kit.fontawesome.com/ef327bb470.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
 </head>
 
 <body>
@@ -25,7 +27,7 @@
 </div>
 <header class="header">
 	<div class="header__logo_container">
-		<img src="images/logo/ohmyfood@2x.svg" class="logo">
+		<img src="images/logo/ohmyfood@2x.svg" class="logo" alt="logo">
 	</div>
 </header>
 
@@ -51,14 +53,14 @@
 	<h2>Fonctionnement</h2>
 	<ul class=" fonct__grid">
 		<li>
-			<span class="number"><p>1</p></span>
+			<span class="number">1</span>
 			<div class="fonct__inside_tile">
 				<i class="fas fa-mobile-alt"></i>
 				<p class="text">Choisissez un restaurant</p>
 			</div>
 		</li>
 		<li>
-			<span class="number"><p>2</p></span>
+			<span class="number">2</span>
 			<div class="fonct__inside_tile">
 				<div class="fusion-icon">
 					<i class="fas fa-ellipsis-v"></i>
@@ -68,7 +70,7 @@
 			</div>
 		</li>
 		<li>
-			<span class="number"><p>3</p></span>
+			<span class="number">3</span>
 			<div class="fonct__inside_tile">
 				<i class="fas fa-store"></i>
 				<p class="text">Dégustez au restaurant</p>
@@ -81,33 +83,34 @@
 	<h2 class="resto__grid_title">Restaurants</h2>
 
 	<div class="resto__grid_container">
-		
+
+		<a  class="resto_tile-link" href="menuPalette.html">
 			<figure class="resto_tile">
-				<a href="menuPalette.html">
 				<img src="images/restaurants/la_palette.jpg" class="resto_tile_image" alt="palette">
 				<div class="resto_tile-new">
 					<h2>Nouveau</h2>
 				</div>
 				<figcaption class="resto_tile_annex">
-					<div class="resto_tile_annex-text">
-						<h2>La palette du goût</h2>	
-						<p>Menilmontant</p>
-					</div>
-				</a>
+				<div class="resto_tile_annex-text">
+					<h2>La palette du goût</h2>	
+					<p>Menilmontant</p>
+				</div>
+		
 					<div class="ac-footer">
 					  <div class="ac-footer-container ac-footer-brand">
 					  	<div class="heart-icon">
-					     	<img src="images/heart-regular.svg" class="heart-regular">
-					     	<img src="images/purp-heart2.svg" class="heart-liked">
+					     	<img src="images/heart-regular.svg" class="heart-regular" alt="heart-regular">
+					     	<img src="images/purp-heart2.svg" class="heart-liked" alt="heart-liked">
 					     </div>
 					  </div>
 					</div>
 				</figcaption>
 			</figure>
+		</a>
 
-			<figure class="resto_tile">
-					<a href="menuNote.html">
-					<img src="images/restaurants/note.jpg" class="resto_tile_image" alt="palette">
+			<a  class="resto_tile-link" href="menuNote.html">
+				<figure class="resto_tile">		
+					<img src="images/restaurants/note.jpg" class="resto_tile_image" alt="note">
 					<div class="resto_tile-new">
 						<h2>Nouveau</h2>
 					</div>
@@ -116,59 +119,58 @@
 							<h2>La note enchantée</h2>	
 							<p>Charonne</p>
 						</div>
-					</a>
+					
 						<div class="ac-footer">
 					  <div class="ac-footer-container ac-footer-brand">
 					  	<div class="heart-icon">
-					     	<img src="images/heart-regular.svg" class="heart-regular">
-					     	<img src="images/purp-heart2.svg" class="heart-liked">
+					     	<img src="images/heart-regular.svg" class="heart-regular" alt="heart-regular">
+					     	<img src="images/purp-heart2.svg" class="heart-liked" alt="heart-liked">
 					     </div>
 					  </div>
 					</div>
 					</figcaption>
 				</figure>
-
+			</a>
+			<a href="menuFR.html" class="resto_tile-link">
 				<figure class="resto_tile">
-				<a href="menuFR.html">
-				<img src="images/restaurants/Ala_francaise.jpg" class="resto_tile_image" alt="palette">
+				<img src="images/restaurants/Ala_francaise.jpg" class="resto_tile_image" alt="Ala_francaise">
 				<figcaption class="resto_tile_annex">
 					<div class="resto_tile_annex-text">
 						<h2>A la française</h2>	
 						<p>Cité Rouge</p>
 					</div>
-				</a>
+				
 					<div class="ac-footer">
 					  <div class="ac-footer-container ac-footer-brand">
 					  	<div class="heart-icon">
-					     	<img src="images/heart-regular.svg" class="heart-regular">
-					     	<img src="images/purp-heart2.svg" class="heart-liked">
+					     	<img src="images/heart-regular.svg" class="heart-regular" alt="heart-regular">
+					     	<img src="images/purp-heart2.svg" class="heart-liked" alt="heart-liked">
 					     </div>
 					  </div>
 					</div>
 				</figcaption>
 			</figure>
-
-			<figure class="resto_tile">
-				<a href="menuDélice.html">
-				<img src="images/restaurants/delice.jpg" class="resto_tile_image" alt="palette">
-				
+		</a>
+		<a href="menuDélice.html" class="resto_tile-link">
+			<figure class="resto_tile">	
+				<img src="images/restaurants/delice.jpg" class="resto_tile_image" alt="delice">
 				<figcaption class="resto_tile_annex">
 					<div class="resto_tile_annex-text">
 						<h2>Le délice des sens</h2>	
 						<p>Folie-Méricourt</p>
 					</div>
-				</a>
+				
 					<div class="ac-footer">
 					  <div class="ac-footer-container ac-footer-brand">
 					  	<div class="heart-icon">
-					     	<img src="images/heart-regular.svg" class="heart-regular">
-					     	<img src="images/purp-heart2.svg" class="heart-liked">
+					     	<img src="images/heart-regular.svg" class="heart-regular" alt="heart-regular">
+					     	<img src="images/purp-heart2.svg" class="heart-liked" alt="heart-liked">
 					     </div>
 					  </div>
 					</div>
 				</figcaption>
 			</figure>
-
+		</a>
 	</div>
 	
 

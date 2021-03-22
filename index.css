@@ -138,20 +138,16 @@ a{text-decoration: none;}
 			.fonctionnement span{
 				    background: #9356DC;
     				border-radius: 50%;
-   					width: 8px;
+    				width: 8px;
     				height: 8px;
-   					padding: 12px 12px;
+    				padding: 12px 12px;
     				margin-top: 20px;
     				margin-left: -13px;
+    				display: flex;
+    				align-items: center;
+    				justify-content: center;
+    				color: #fff;
 			}
-
-			
-				.number p{
-					margin-top: -4px;
-					margin-left: -1px;
-					font-size: 15px;
-					color: #fff;
-				}
 
 				.fonct__inside_tile{
 					display: flex;
@@ -205,10 +201,13 @@ a{text-decoration: none;}
 				margin-left: 30px;
 				
 			}	
+			.resto_tile-link{
+				width: 70%;
+			}
 			.resto_tile{
 				
 				height: 200px;
-				width: 80%;
+				width: 100%;
 				margin: 0 0;
 				border-radius: 5%;
 				background: #fff;
@@ -258,10 +257,11 @@ a{text-decoration: none;}
 							margin-top: -10px;
 							font-weight: lighter;
 						}
+
 						.ac-footer-container{
 							position: relative;
-							right: 60px;
-							margin-top: 15px;
+							right: 50px;
+							margin-top: 10px;
 						}
 							.ac-footer-container i{
 								
@@ -339,7 +339,7 @@ a{text-decoration: none;}
 		margin-left: -50px;
 	}
 }
-@media (min-width: 801px) and (max-width: 1501px){
+@media (min-width: 801px) {
 	.header__logo_container{
 		height: 100px;
 	}

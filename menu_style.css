@@ -69,7 +69,7 @@ width: 100%;
 
 .ac-footer{
 margin-left: 98%;
-margin-top: -45px;
+margin-top: -33px;
 }	
 
 	.menu__title{
@@ -101,7 +101,7 @@ margin-top: -45px;
 			overflow: hidden;
 		}
 
-		.menu__tile a{
+		.menu__tile {
 			text-decoration: none;
 			color: #000;
 			display: flex;
@@ -130,7 +130,7 @@ margin-top: -45px;
 				
 			}
 				.tile-annex p{
-					font-size: 13px;
+					font-size: 11px;
 					margin-top: -7px;
 					font-weight: lighter;
 					white-space: nowrap;
@@ -148,7 +148,7 @@ margin-top: -45px;
 						padding-left: 8px;
 					}
 					
-.menu__tile a:hover .tile-annex-prix{
+.menu__tile:hover .tile-annex-prix{
 		transform: translateX(65%);
 	}
 	.tile-annex-prix{
@@ -161,14 +161,14 @@ margin-top: -45px;
 		transform-origin: left;
 		transition: width 400ms;
 	}
-	.menu__tile a:hover .tile-annex{
+	.menu__tile:hover .tile-annex{
 		width: 50%;
 
 	}
-.menu__tile a:hover .tile-check{
+.menu__tile:hover .tile-check{
 	transform: translateX(0%);	
 }
-.menu__tile a:hover.tile-check i{
+.menu__tile:hover.tile-check i{
 	transform: rotate(360deg);
 }
 
@@ -246,7 +246,7 @@ margin-top: -45px;
 		margin-left: -50px;
 	}
 	}
-@media (min-width: 801px) and (max-width: 1501px){
+@media (min-width: 801px){
 	.header__logo_container{
 		justify-content: flex-start;
 	}

@@ -33,32 +33,36 @@
 	
 	width: 30px;
 	
+	
 }
 .heart-regular{
 	
-	width: 30px;
+	width: 15px;
+	
 }
 
 	.heart-liked {
 		display: none;
-		width: 102px;
-		margin-left: -36px;
-		margin-top: -71px;
+		width: 55px;
+		margin-left: -20px;
+		margin-top: -40px;
+		
 
 	}
 	.heart-icon:before{
-		content:'';
-		display:block;
-		width:8px;
-		height:8px;
-		position:absolute;
-		top:70%;
-		bottom:0;
-		left:75%;
-		transform:translate(-50%, -50%);
-		right:0;
-		z-index:-1;
-		border-radius:100%;
+		content: '';
+		display: block;
+		width: 8px;
+		height: 8px;
+		position: absolute;
+		top: 36%;
+		bottom: 0;
+		left: 43%;
+		transform: translate(-50%, -50%);
+		right: 0;
+		z-index: -1;
+		border-radius: 100%;
+
 		
 		
 		}
