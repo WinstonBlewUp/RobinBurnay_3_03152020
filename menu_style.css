@@ -282,18 +282,18 @@ margin-top: -33px;
 	.menu__tile{
 		width: 300px;
 	}
-	#menu__tileNote{
+	.menu__tileNote{
 		width: 200px;
 
 	}
-	#menu__tileNote .tile-annex{
+	.menu__tileNote .tile-annex{
 		width: 70%;
 		overflow-wrap: break-word;	 
 	}
-	#menu__tileNote a:hover .tile-annex{
+	.menu__tileNote a:hover .tile-annex{
 		width: 40%;
 	}
-	#menu__tileNote .tile-check i{
+	.menu__tileNote .tile-check i{
 		margin-left: 4px;
 	}
 	
@@ -317,5 +317,4 @@ margin-top: -33px;
 	.footer__container ul{
 		margin-left: -50px;
 	}
-}
 }

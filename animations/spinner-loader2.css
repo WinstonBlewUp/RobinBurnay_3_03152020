@@ -7,9 +7,9 @@
  100% { transform: translate(148px,80px) scale(1); }
 }
 @keyframes ldg-r {
-   0% { transform: translate(148px,80px) scale(1): }
+   0% { transform: translate(148px,80px) scale(1); }
  100% { transform: translate(148px,80px) scale(0); }
-}
+  }
 @keyframes ldg-c {
    0% { background: #9356dc }
   25% { background: #aabbbb }
