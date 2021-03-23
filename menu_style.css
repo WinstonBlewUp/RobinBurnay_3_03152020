@@ -59,17 +59,16 @@ z-index: 4;
 margin-top: -90px;
 padding-top: 28px;
 padding-left: 25px;
-
 border-radius: 40px 40px 0px 0px;
-
-
 letter-spacing: normal;
-width: 100%;	
+width: 350px;
+white-space: nowrap;	
 }
 
 .ac-footer{
-margin-left: 98%;
-margin-top: -33px;
+
+margin-top: -69px;
+z-index: 4;
 }	
 
 	.menu__title{
@@ -218,7 +217,7 @@ margin-top: -33px;
 
 	@media   (max-width: 340px){
 		.resto_title{
-			padding-left: 5px;
+			
 			font-size: 20px;
 		}
 	}
