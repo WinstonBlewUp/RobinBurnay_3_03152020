@@ -1,0 +1,23 @@
+{
+  "name": "projet_3_oc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/menu_style.scss:./css/menu_style.css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinstonBlewUp/Projet_3_OC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WinstonBlewUp/Projet_3_OC/issues"
+  },
+  "homepage": "https://github.com/WinstonBlewUp/Projet_3_OC#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,142 @@
+$purple: #9356dc;
+$mint:#99e2d0;
+$green:#aaabbb;
+$pinky:#ff79da;
+
+
+@keyframes ldg {
+	0% {
+		transform: translate(12px,80px) scale(0);
+	}
+	25% {
+		transform: translate(12px,80px) scale(0);
+	}
+	50% {
+		transform: translate(12px,80px) scale(1);
+	}
+	75% {
+		transform: translate(80px,80px) scale(1);
+	}
+	100% {
+		transform: translate(148px,80px) scale(1);
+	}
+}
+@keyframes ldg-r {
+	0% {
+		transform: translate(148px,80px) scale(1);
+	}
+	100% {
+		transform: translate(148px,80px) scale(0);
+	}
+}
+@keyframes ldg-c {
+	0% {
+		background: $purple;
+	}
+	25% {
+		background: $green;
+	}
+	50% {
+		background: $mint;
+	}
+	75% {
+		background: $pinky;
+	}
+	100% {
+		background: $purple;
+	}
+}
+@keyframes fade-away {
+	0% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+	100% {
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-100%);
+	}
+}
+@keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+.ldg {
+	div {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		transform: translate(80px,80px) scale(1);
+		background: $purple;
+		animation: ldg 1s infinite cubic-bezier(0,0.5,0.5,1);
+		box-sizing: content-box;
+		&:nth-child(1) {
+			background: $pinky;
+			transform: translate(148px,80px) scale(1);
+			animation: ldg-r 0.25s infinite cubic-bezier(0,0.5,0.5,1), ldg-c 1s infinite step-start;
+		}
+		&:nth-child(2) {
+			animation-delay: -0.25s;
+			background: $purple;
+		}
+		&:nth-child(3) {
+			animation-delay: -0.5s;
+			background: $pinky;
+		}
+		&:nth-child(4) {
+			animation-delay: -0.75s;
+			background: $mint;
+		}
+		&:nth-child(5) {
+			animation-delay: -1s;
+			background: $green;
+		}
+	}
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform: translateZ(0) scale(1);
+	backface-visibility: hidden;
+	transform-origin: 0 0;
+}
+.loading-spinner-ellipsis {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	overflow: hidden;
+	position: absolute;
+	top: 25%;
+	right: 20%;
+	z-index: 1001;
+}
+#loader-wrapper {
+	.loader-section {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: #f6f6f6;
+		z-index: 1000;
+	}
+	.loading-spinner-ellipsis {
+		animation: fade-away 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+		animation-delay: 3s;
+		animation-fill-mode: both;
+	}
+}
+.loader-section {
+	animation: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	animation-delay: 3s;
+	animation-fill-mode: both;
+}
+@media (min-width: 600px) {
+	.loading-spinner-ellipsis {
+		right: 40%;
+	}
+}
