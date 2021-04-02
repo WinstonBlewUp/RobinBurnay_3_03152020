@@ -1,6 +1,4 @@
-.menu__tile{
-	/*overflow: hidden;*/
-}
+
 
 .menu__tile a:active .tile-check {
 	transform: translateX(0%);

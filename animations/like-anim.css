@@ -77,11 +77,11 @@
   width: 8px;
   height: 8px;
   position: absolute;
-  top: 36%;
+  top: 25%;
   bottom: 0;
-  left: 43%;
+  left: 37%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   right: 0;
   z-index: -1;
   border-radius: 100%;
