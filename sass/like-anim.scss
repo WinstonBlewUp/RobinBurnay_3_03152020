@@ -38,7 +38,7 @@
 		width: 8px;
 		height: 8px;
 		position: absolute;
-		top: 25%;
+		top: 35%;
 		bottom: 0;
 		left: 37%;
 		-webkit-transform: translate(-50%, -50%);
@@ -58,7 +58,7 @@
 	margin-top: -40px;
 }
 .ac-footer-container {
-	&:active {
+	&:hover {
 		.heart-icon {
 			animation: pulseHeart 1s ease infinite;
 			&:before {
@@ -79,4 +79,39 @@
 	position: relative;
 	display: inline-block;
 	margin-left: 8px;
+}
+
+svg {
+fill: #9356DC;
+fill-opacity: 0%;
+stroke: black;
+stroke-width: 20px;
+height: 23px;
+overflow: visible;
+margin-right: 20px;
+
+}
+
+figcaption svg:hover {
+
+-webkit-animation: heart 1s both;
+animation: heart 1s both;
+cursor: pointer;
+
+}
+
+@keyframes heart{
+0% {
+fill-opacity: 0%;
+}
+24% {
+fill-opacity: 20%;
+}
+46% {
+fill-opacity: 50%;
+}
+100% {
+fill-opacity: 100%;
+
+}
 }
