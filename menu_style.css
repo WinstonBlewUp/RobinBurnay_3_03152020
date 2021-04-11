@@ -274,7 +274,7 @@ body {
   }
   .menu__container {
     width: 70%;
-    margin-left: 15%;
+    margin-left: 13%;
   }
   .footer__logo {
     margin-left: -22px !important;
@@ -346,13 +346,13 @@ body {
     width: 450px;
   }
   .menu__title {
-    margin-left: 17%;
+    margin-left: 15%;
   }
   .menu__tile {
     width: 300px;
   }
   .menu__tileNote {
-    width: 217px;
+    width: 300px;
   }
   .menu__tileNote .tile-annex {
     width: 70%;
