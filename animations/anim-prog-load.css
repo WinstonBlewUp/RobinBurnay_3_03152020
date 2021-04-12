@@ -1,0 +1,58 @@
+@-webkit-keyframes animateIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ul {
+  display: block;
+}
+
+li {
+  display: block;
+  -webkit-animation-name: animateIn;
+          animation-name: animateIn;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.menu__tile:nth-child(1) {
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+}
+
+.menu__tile:nth-child(2) {
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
+}
+
+.menu__tile:nth-child(3) {
+  -webkit-animation-delay: 350ms;
+          animation-delay: 350ms;
+}
+
+.menu__tile:nth-child(4) {
+  -webkit-animation-delay: 450ms;
+          animation-delay: 450ms;
+}
+/*# sourceMappingURL=anim-prog-load.css.map */
