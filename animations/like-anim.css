@@ -123,7 +123,7 @@
   margin-left: 8px;
 }
 
-svg {
+figcaption svg {
   fill: #9356DC;
   fill-opacity: 0%;
   stroke: black;
@@ -135,7 +135,7 @@ svg {
 
 figcaption svg:hover {
   -webkit-animation: heart 1s both;
-  animation: heart 1s both;
+          animation: heart 1s both;
   cursor: pointer;
 }
 
