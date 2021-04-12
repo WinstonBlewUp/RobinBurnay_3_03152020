@@ -79,7 +79,7 @@
   position: absolute;
   top: 35%;
   bottom: 0;
-  left: 37%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   right: 0;
@@ -123,17 +123,17 @@
   margin-left: 8px;
 }
 
-figcaption svg {
-  fill: #9356DC;
+svg {
+  fill: #9356dc;
   fill-opacity: 0%;
   stroke: black;
   stroke-width: 20px;
-  height: 23px;
+  height: 20px;
   overflow: visible;
   margin-right: 20px;
 }
 
-figcaption svg:hover {
+svg:hover {
   -webkit-animation: heart 1s both;
           animation: heart 1s both;
   cursor: pointer;
