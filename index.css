@@ -1,13 +1,11 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("Fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
 
 @font-face {
- font-family: "Roboto";
- src: url("Fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
-      url("Fonts/Roboto/Roboto-Light.ttf") format("truetype"),
-}
-@font-face{
   font-family: "Shrikhand";
   src: url("Fonts/shrikhand/Shrikhand-Regular.otf") format("opentype");
-     
 }
 
 * {
@@ -226,7 +224,6 @@ a {
 .resto__grid {
   background: #f6f6f6;
   width: 100%;
-  margin-bottom: 30px;
 }
 
 .resto__grid_container {
@@ -326,15 +323,13 @@ a {
 .ac-footer-container {
   position: relative;
   right: 48px;
-  margin-top: 15px;
+  margin-top: 17px;
 }
 
 .footer {
   background: #353535;
   height: auto;
   width: 100%;
-  margin-top: -20px;
-  margin-bottom: -20px;
 }
 
 .footer__logo {
@@ -357,9 +352,6 @@ a {
 .footer__link_li {
   list-style-type: none;
   margin-bottom: 10px;
-}
-.test-margin{
-  margin-bottom: 0px 0px;
 }
 
 .footer__link_li i {
@@ -471,3 +463,16 @@ a {
     margin-left: -20px;
   }
 }
+
+@media (min-width: 834px) and (max-width: 1024px) {
+  .fonct__inside_tile {
+    margin-left: 3%;
+  }
+  .resto__grid_container {
+    margin-left: 14%;
+  }
+  .resto_tile {
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
