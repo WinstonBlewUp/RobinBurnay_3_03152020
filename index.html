@@ -2,21 +2,38 @@
 <html>
 <head>
 	<title>OhMyFood!</title>
-	<link rel="stylesheet" type="text/css" href="style_mobile.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="animations/like-anim.css">
+	<link rel="stylesheet" type="text/css" href="animations/loader-spinner.css">
 	<script src="https://kit.fontawesome.com/ef327bb470.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
 </head>
 
 <body>
-
+	<div id="loader-wrapper">
+	<div class="loading-spinner-ellipsis">
+		<div class="ldg">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<div class="loader-section"></div>
+     
+</div>
 <header class="header">
 	<div class="header__logo_container">
-		<img src="images/logo/ohmyfood.png" class="logo">
+		<img src="images/logo/ohmyfood@2x.svg" class="logo" alt="logo">
 	</div>
 </header>
 
 <section class="location">
 	<div class="location__container">
-		<i class="fas fa-map-marker-alt"></i>
+		<i class="fas fa-map-marker-alt" aria-hidden="false"></i>
 		<p>Paris, Belleville</p>
 	</div>
 </section>
@@ -36,20 +53,24 @@
 	<h2>Fonctionnement</h2>
 	<ul class=" fonct__grid">
 		<li>
-			<span class="number"><p>1</p></span>
+			<span class="number">1</span>
 			<div class="fonct__inside_tile">
 				<i class="fas fa-mobile-alt"></i>
 				<p class="text">Choisissez un restaurant</p>
 			</div>
 		</li>
 		<li>
-			<span class="number"><p>2</p></span>
+			<span class="number">2</span>
 			<div class="fonct__inside_tile">
+				<div class="fusion-icon">
+					<i class="fas fa-ellipsis-v"></i>
+					<i class="fas fa-bars"></i>
+				</div>
 				<p class="text">Composez votre menu</p>
 			</div>
 		</li>
 		<li>
-			<span class="number"><p>3</p></span>
+			<span class="number">3</span>
 			<div class="fonct__inside_tile">
 				<i class="fas fa-store"></i>
 				<p class="text">Dégustez au restaurant</p>
@@ -63,81 +84,115 @@
 
 	<div class="resto__grid_container">
 
-		<figure class="resto_tile">
-
-			<img src="images/restaurants/la_palette.jpg" class="resto_tile_image" alt="palette">
-			<div class="resto_tile-new">
-				<h2>Nouveau</h2>
-			</div>
-			<figcaption class="resto_tile_annex">
+		<a  class="resto_tile-link" href="menuPalette.html">
+			<figure class="resto_tile">
+				<img src="images/restaurants/la_palette.jpg" class="resto_tile_image" alt="palette">
+				<div class="resto_tile-new">
+					<h2>Nouveau</h2>
+				</div>
+				<figcaption class="resto_tile_annex">
 				<div class="resto_tile_annex-text">
-					<h2>La Palette Du Goût</h2>	
+					<h2>La palette du goût</h2>	
 					<p>Menilmontant</p>
 				</div>
-				<div class="resto_tile_annex-icon">
-					<i class="far fa-heart"></i>
-				</div>
-			</figcaption>
-		</figure>
+		
+					<div class="ac-footer">
+					  <div class="ac-footer-container ac-footer-brand">
+					  	<div class="heart-icon">
+							<svg aria-hidden="true" viewBox="0 0 512 512" alt="heart-liked">
+								<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
+								</path>
+							</svg>
+					     </div>
+					  </div>
+					</div>
+				</figcaption>
+			</figure>
+		</a>
 
-		<figure class="resto_tile">
-			<img src="images/restaurants/note.jpg" class="resto_tile_image" alt="note_enchantée">
-			<div class="resto_tile-new">
-				<h2>Nouveau</h2>
-			</div>
-			<figcaption class="resto_tile_annex">
-				<div class="resto_tile_annex-text">
-				<h2>La Note Enchantée</h2>	
-				<p>Charonne</p>
-				</div>
-				<div class="resto_tile_annex-icon">
-					<i class="far fa-heart"></i>
-				</div>
-
-			</figcaption>
-		</figure>
-
-		<figure class="resto_tile">
-			<img src="images/restaurants/Ala_francaise.jpg" class="resto_tile_image" alt="Ala_francaise">
-			<figcaption class="resto_tile_annex">
-				<div class="resto_tile_annex-text">
-					<h2>A La Française</h2>	
-				<p>Cité Rouge</p>
-				</div>
-				<div class="resto_tile_annex-icon">
-					<i class="far fa-heart"></i>
-				</div>
+			<a  class="resto_tile-link" href="menuNote.html">
+				<figure class="resto_tile">		
+					<img src="images/restaurants/note.jpg" class="resto_tile_image" alt="note">
+					<div class="resto_tile-new">
+						<h2>Nouveau</h2>
+					</div>
+					<figcaption class="resto_tile_annex">
+						<div class="resto_tile_annex-text">
+							<h2>La note enchantée</h2>	
+							<p>Charonne</p>
+						</div>
+					
+						<div class="ac-footer">
+					  <div class="ac-footer-container ac-footer-brand">
+					  	<div class="heart-icon">
+							<svg aria-hidden="true" viewBox="0 0 512 512" alt="heart-liked">
+								<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
+								</path>
+							</svg>
+					     </div>
+					  </div>
+					</div>
+					</figcaption>
+				</figure>
+			</a>
+			<a href="menuFR.html" class="resto_tile-link">
+				<figure class="resto_tile">
+				<img src="images/restaurants/Ala_francaise.jpg" class="resto_tile_image" alt="Ala_francaise">
+				<figcaption class="resto_tile_annex">
+					<div class="resto_tile_annex-text">
+						<h2>A la française</h2>	
+						<p>Cité Rouge</p>
+					</div>
 				
-			</figcaption>
-		</figure>
-
-		<figure class="resto_tile">
-			<img src="images/restaurants/delice.jpg" class="resto_tile_image" alt="Délices">
-			<figcaption class="resto_tile_annex">
-				<div class="resto_tile_annex-text">
-					<h2>Le Délice Des Sens</h2>	
-				<p>Folie-Méricourt</p>
-				</div>
-				<div class="resto_tile_annex-icon">
-					<i class="far fa-heart"></i>
-				</div>
-
+					<div class="ac-footer">
+					  <div class="ac-footer-container ac-footer-brand">
+					  	<div class="heart-icon">
+							<svg aria-hidden="true" viewBox="0 0 512 512" alt="heart-liked">
+								<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
+								</path>
+							</svg>
+					     </div>
+					  </div>
+					</div>
+				</figcaption>
+			</figure>
+		</a>
+		<a href="menuDélice.html" class="resto_tile-link">
+			<figure class="resto_tile">	
+				<img src="images/restaurants/delice.jpg" class="resto_tile_image" alt="delice">
+				<figcaption class="resto_tile_annex">
+					<div class="resto_tile_annex-text">
+						<h2>Le délice des sens</h2>	
+						<p>Folie-Méricourt</p>
+					</div>
 				
-			</figcaption>
-		</figure>
-
+					<div class="ac-footer">
+					  <div class="ac-footer-container ac-footer-brand">
+					  	<div class="heart-icon">
+							<svg aria-hidden="true" viewBox="0 0 512 512" alt="heart-liked">
+								<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
+								</path>
+							</svg>
+					     </div>
+					  </div>
+					</div>
+				</figcaption>
+			</figure>
+		</a>
 	</div>
 	
 
 </section>
 <footer class="footer">
-	<img src="images/logo/ohmyfood.png" class="footer__logo">
-	<ul>
-		<li class="footer__link_li"><i class="fas fa-utensils fa-fw"></i><a href="#" class="footer__link">Proposer un restaurant</a></li>
-		<li class="footer__link_li"><i class="fas fa-hands-helping fa-fw"></i><a href="#" class="footer__link">Devenir partenaire</a></li>
-		<li class="footer__link_li"><a href="#" class="footer__link">Mentions légales</a></li>
-		<li class="footer__link_li"><a href="#" class="footer__link">Contact</a></li>
-	</ul>
+	<div class="footer__container">
+		<h2 class="footer__logo">Ohmyfood</h2> 
+		<ul class="footer__link_ul">
+			<li class="footer__link_li"><i class="fas fa-utensils fa-fw"></i><a href="#" class="footer__link">Proposer un restaurant</a></li>
+			<li class="footer__link_li"><i class="fas fa-hands-helping fa-fw"></i><a href="#" class="footer__link">Devenir partenaire</a></li>
+			<li class="footer__link_li"><a href="#" class="footer__link">Mentions légales</a></li>
+			<li class="footer__link_li"><a href="mailto:" class="footer__link">Contact</a></li>
+		</ul>
+	</div>
 </footer>
 </body>
 </html>

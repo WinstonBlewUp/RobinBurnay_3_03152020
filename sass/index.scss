@@ -337,3 +337,14 @@ a {
 		margin-left: -20px;
 	}
 }
+@media (min-width: 834px) and (max-width: 1024px){
+	.fonct__inside_tile{
+		margin-left: 3%;
+	}
+	.resto__grid_container{
+		margin-left: 14%;
+	}
+	.resto_tile{
+		margin-left: 10px;
+	}
+}
