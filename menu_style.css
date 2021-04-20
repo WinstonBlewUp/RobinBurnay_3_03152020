@@ -62,6 +62,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          margin-left: 180px;
 }
 
 .resto_title {
@@ -294,7 +295,7 @@ body {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1000px) {
   .header__logo_container {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
@@ -368,8 +369,8 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-left: 40px;
-    width: 400px;
+    margin-left: 23px;
+    
   }
   .footer__logo {
     margin-left: -13px;
@@ -388,4 +389,3 @@ body {
     margin-left: -50px;
   }
 }
-/*# sourceMappingURL=menu_style.css.map */

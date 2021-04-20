@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Roboto";
-  src: url("Fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("Fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  src: url("Fonts/Roboto/Roboto-Regular.ttf") format("truetype")
+       url("Fonts/Roboto/Roboto-Thin.ttf") format("truetype");
 }
 
 @font-face {
@@ -109,7 +110,7 @@ a {
 }
 
 .explorer__txt_container p {
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .explorer__btn_container {
